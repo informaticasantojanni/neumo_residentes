@@ -19,9 +19,12 @@ const HomeInfoView = () => {
             </div>
             <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl laptop:w-1/2">
                 <InfoCard
-                    title='Consorcio de Asma'
-                    subTitle='Hospitales públicos de CABA'
-                    paragraph='Inscribite a la jornada informativa sobre el manejo y tratamiento del asma, organizada por el Consorcio de Asma de Hospitales Públicos de CABA. Este evento contará con la participación de prestigiosos disertantes de hospitales públicos y privados de la Ciudad de Buenos Aires.'
+                    title='CONSORCIO HOSPITALES PUBLICOS DE CABA'
+                    subTitle='EL RESIDENTE DESAFIANDO AL EXPERTO'
+                    paragraph="Únete a nosotros en esta jornada educativa donde residentes de neumología y expertos se reunirán para discutir y compartir conocimientos sobre tres importantes temáticas:  "
+                    case_1= "ASMA: lo que no dicen las guías"
+                    case_2= "HIPERTENSIÓN PULMONAR: cuando la hipertensión pulmonar puede tener varias curas"
+                    case_3= "ENFERMEDAD INTERSTICIAL: recorrido del diagnóstico al transplante"
                     itemsInformation={newItemsInformation}
                     {...connection}
                 />

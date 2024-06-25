@@ -1,21 +1,19 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Navigation } from 'swiper/modules';
-import useData from '../../../../useData';
+import useData from '../../../useData';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import SpeakerCard from './SpeakerCard';
+import DirectoresCard from './DirectoresCard';
 
 
-const SpeakerCarousel = () => {
+const DirectoresCarousel = () => {
 
-  const { speakers } = useData()
+const {directores} = useData()
 
   return (
-
-
     <Swiper
 
       breakpoints={{
@@ -39,23 +37,19 @@ const SpeakerCarousel = () => {
       // onSwiper={(swiper) => console.log(swiper)}
     >
       {
-        speakers.map((speaker, index)=>(
+        directores.map((director, index)=>(
           <SwiperSlide
             key={index}
           >
-            <SpeakerCard 
-              {...speaker}
+            <DirectoresCard 
+              {...director}
             />
 
           </SwiperSlide>
         ))
       }
     </Swiper>
-
-
-
-
   )
 }
 
-export default SpeakerCarousel
+export default DirectoresCarousel

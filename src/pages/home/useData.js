@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react"
+import React, { useEffect, useState } from "react"
 import Calendar from "../../components/svg/Calendar"
 import MedicalCard from "../../components/svg/MedicalCard"
 import Time from "../../components/svg/Time"
@@ -14,6 +14,7 @@ import Dr_Ricardo_del_Olmo_PS from "../../assets/speakers/Dr_Ricardo_del_Olmo_PS
 import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
 import Dra_Valeria_Brichetti_PS from "../../assets/speakers/Dra_Valeria_Brichetti_PS.jpg"
 import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
+import Dra_Alejandra_Celenza_PS from "../../assets/speakers/Dra_Alejandra_Celenza_PS.jpg"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -79,6 +80,18 @@ const useData = () => {
             hospitalName: 'Hospital Fernandez',
             icon: MedicalCard,
         },
+    ]
+    const directores = [
+        {
+            name: "Dr. Fernando Saldarini",
+            cargo: "Director",
+            image: Dr_Fernando_Saldarini_PS
+        },
+        {
+            name: "Dra. Alejandra Celenza",
+            cargo: "Secretaria",
+            image: Dra_Alejandra_Celenza_PS
+        }
     ]
 
     const speakers = [
@@ -173,6 +186,7 @@ const useData = () => {
     return {
         itemsInformation,
         itemsHospitals,
+        directores,
         speakers,
         logos,
         screenWidth
