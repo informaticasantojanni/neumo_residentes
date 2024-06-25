@@ -50,8 +50,8 @@ const HomeHeaderView = () => {
       </div>
       {/* Title */}
       <div className='w-full flex flex-col justify-center items-center font-montserrat font-Bold tablet:ps-5 tablet:items-start desktop:p-5'>
-        <h1 className='text-2xl lg:text-4xl laptop:text-5xl'>CONSORCIO DE ASMA 2024</h1>
-        <h3 className='text-lg lg:text-3xl laptop:text-3xl'>Hospitales Públicos de CABA</h3>
+        <h1 className='text-2xl lg:text-4xl laptop:text-5xl'>CONSORCIO HOSPITALES PUBLICOS DE CABA </h1>
+
       </div>
       {/* 3 hospitales */}
       < div className='w-full flex justify-center my-10 lg:my-0 ps-5 tablet:justify-start desktop:justify-start desktop:pl-5'>

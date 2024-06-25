@@ -39,11 +39,11 @@ const useData = () => {
 
     const itemsInformation = [
         {
-            textInfo: 'Jueves 4 de abril',
+            textInfo: 'Jueves 15 de agosto',
             iconInfo: Calendar,
         },
         {
-            textInfo: 'De 8 a 12:30hs',
+            textInfo: 'De 09:30 a 13:00hs',
             iconInfo: Time,
         },
         {
