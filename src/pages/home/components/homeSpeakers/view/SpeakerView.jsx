@@ -1,4 +1,4 @@
-import SpeakerCarousel from "../components/speakerCard/SpeakerCarousel"
+import SpeakerCarouselCase1 from "../components/speakerCard/SpeakerCarouselCase1"
 
 
 const SpeakerView = () => {
@@ -7,7 +7,7 @@ const SpeakerView = () => {
       <div className="w-full text-center p-5">
         <h2 className='font-montserrat font-Bold text-4xl mb-10 text-White desktop:group-hover:text-Blue desktop:text-5xl'>DISERTANTES</h2>
       </div>
-      <SpeakerCarousel />
+      <SpeakerCarouselCase1 />
     </div>
   )
 }

@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import SpeakerCard from './SpeakerCard';
 
 
-const SpeakerCarousel = () => {
+const SpeakerCarouselCase3 = () => {
 
   const { speakers } = useData()
 
@@ -58,4 +58,4 @@ const SpeakerCarousel = () => {
   )
 }
 
-export default SpeakerCarousel
+export default SpeakerCarouselCase3
