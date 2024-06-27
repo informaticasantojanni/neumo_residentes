@@ -15,6 +15,8 @@ import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
 import Dra_Valeria_Brichetti_PS from "../../assets/speakers/Dra_Valeria_Brichetti_PS.jpg"
 import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
 import Dra_Alejandra_Celenza_PS from "../../assets/speakers/Dra_Alejandra_Celenza_PS.jpg"
+import Dra_Veronica_Geronazzo from "../../assets/speakers/Dra_Veronica_Geronazzo.png"
+import Dr_Juan_Ignacio_Zaballa from "../../assets/speakers/Dr_Juan_Ignacio_Zaballa.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -88,10 +90,35 @@ const useData = () => {
             image: Dr_Fernando_Saldarini_PS
         },
         {
+            name: "Dr. Juan Ignacio Zabala",
+            cargo: "Director",
+            image: Dr_Juan_Ignacio_Zaballa
+        },
+        {
+            cargo: "Director",
+            name: "Dra. Verónica Geronazzo",
+            image: Dra_Veronica_Geronazzo
+        },
+        {
             name: "Dra. Alejandra Celenza",
             cargo: "Secretaria",
             image: Dra_Alejandra_Celenza_PS
-        }
+        },
+        {
+            name: "Dr.Martín Sívori",
+            cargo: "Secretario",
+            image: Dr_Martin_Sívori_PS
+        },
+        {
+            name: "Dr. Diego Litewka",
+            cargo: "Secretario",
+            image: Dr_Diego_Litewka_PS
+        },
+        {
+            name: "Dr. Daniel Pascansky",
+            cargo: "Secretario",
+            image: Dr_Daniel_Pancasky_PS
+        },
     ]
 
     const speakers = [
