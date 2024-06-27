@@ -9,7 +9,12 @@ export default {
       'Blue': '#0E58A8',
       'Green': '#2FCE91',
       'White': '#F9F9F9',
-      'Black' : '#000'
+      'Black' : '#000',
+      'Soft-red': '#FE958F',
+      'Light-peach': '#F3D7C2',
+      'Mint-green': '#8BB6A3',
+      'Teal': '#17A7A8',
+      'Navy-blue': '#122F51'
     },
     fontWeight: {
       Regular: '400',

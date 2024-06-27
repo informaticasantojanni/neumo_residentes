@@ -14,10 +14,10 @@ const HomeInfoView = () => {
 
     return (
         <div className='mb-40 laptop:flex laptop:gap-4 laptop:justify-center laptop:items-center'>
-            <div className='mb-40 laptop:mb-0 laptop:w-1/2 laptop:flex laptop:items-center laptop:p-4 laptop:h-[537px] laptop:bg-Green laptop:rounded-r-full'>
+            <div className='mb-40 laptop:mb-0 laptop:w-1/2 laptop:flex laptop:items-center laptop:p-4 laptop:h-[537px] laptop:bg-Soft-red laptop:rounded-r-full'>
                 <Countdown />
             </div>
-            <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Blue shadow-md rounded-xl laptop:w-1/2">
+            <div className="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8 bg-Navy-blue shadow-md rounded-xl laptop:w-1/2">
                 <InfoCard
                     title='CONSORCIO HOSPITALES PUBLICOS DE CABA'
                     subTitle='EL RESIDENTE DESAFIANDO AL EXPERTO'
