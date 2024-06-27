@@ -9,7 +9,7 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, case_1, case_2
     return (
         <div>
             <h2 className="text-4xl font-montserrat font-Bold mb-1 text-White desktop:text-5xl">{title}</h2>
-            <h3 className="text-xl font-montserrat font-Bold mb-1 text-White desktop:text-2xl">{subTitle}</h3>
+            <h3 className="text-xl font-montserrat font-Bold mb-1 text-Soft-red desktop:text-2xl">{subTitle}</h3>
             <div className=" py-4 mb-4">
                 <p className="font-montserratAlternate font-Regular text-base desktop:text-lg text-White text-justify mb-2">{paragraph}</p>
                 <p className="font-montserratAlternate font-Regular text-base desktop:text-lg text-White text-justify mb-1">{case_1}</p>
@@ -28,7 +28,7 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, case_1, case_2
                 {
                     <li className="flex items-start gap-2 mb-3">
                         <connection.iconInfo
-                            color='#2FCE91'
+                            color='#FE958F'
                             width='25px'
                             height='25px'
                         />
@@ -44,7 +44,7 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, case_1, case_2
             </ul>
             <div className="flex justify-center items-center py-5">
                 <a href={URL_PROGRAMA} target="_blank" rel="noopener noreferrer">
-                    <button className="px-6 py-2 text-White bg-Blue border-solid border-2 border-White hover:bg-Green hover:border-Blue rounded-2xl font-montserrat text-lg font-Semibold desktop:p-3 desktop:text-2xl">Ver Programa</button>
+                    <button className="px-6 py-2 text-Navy-blue bg-Soft-red border-solid border-2 border-White hover:bg-Mint-green rounded-2xl font-montserrat text-lg font-Semibold desktop:p-3 desktop:text-2xl">Ver Programa</button>
                 </a>
             </div>
         </div>

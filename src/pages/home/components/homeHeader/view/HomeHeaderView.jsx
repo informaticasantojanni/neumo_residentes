@@ -24,7 +24,7 @@ const HomeHeaderView = () => {
 
   return (
     <div
-      className=' bg-Blue text-White flex flex-col items-center justify-center mb-40 lg:bg-right lg:bg-no-repeat desktop:justify-between desktop:h-[600px]'
+      className=' bg-Navy-blue text-Mint-green flex flex-col items-center justify-center mb-40 lg:bg-right lg:bg-no-repeat desktop:justify-between desktop:h-[600px]'
       style={{
         backgroundImage: screenWidth > 1024 ? `url(${hospitales})` : 'none', 
         backgroundSize: 'auto 100%', 
@@ -74,7 +74,7 @@ const HomeHeaderView = () => {
         /> */}
       </div>
       {/* <div className='flex justify-center items-center w-full bg-Green py-5 desktop:rounded-tl-full desktop:rounded-tr-full'> */}
-      <div className='flex justify-center items-center w-full px-8 bg-Green py-5 lg:rounded-tl-full lg:rounded-tr-full'>
+      <div className='flex justify-center items-center w-full px-8 bg-Mint-green py-5 lg:rounded-tl-full lg:rounded-tr-full'>
         <ul className='flex flex-col items-center md:flex-row'>
           {
             newInformationItems.map((infoItem, index) => (
