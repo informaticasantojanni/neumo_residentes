@@ -11,7 +11,7 @@ import SpeakerCard from './SpeakerCard';
 
 const SpeakerCarouselCase3 = () => {
 
-  const { speakers } = useData()
+  const { speakersCase3 } = useData()
 
   return (
 
@@ -39,7 +39,7 @@ const SpeakerCarouselCase3 = () => {
       // onSwiper={(swiper) => console.log(swiper)}
     >
       {
-        speakers.map((speaker, index)=>(
+        speakersCase3.map((speaker, index)=>(
           <SwiperSlide
             key={index}
           >

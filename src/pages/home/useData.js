@@ -17,6 +17,9 @@ import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarin
 import Dra_Alejandra_Celenza_PS from "../../assets/speakers/Dra_Alejandra_Celenza_PS.jpg"
 import Dra_Veronica_Geronazzo from "../../assets/speakers/Dra_Veronica_Geronazzo.png"
 import Dr_Juan_Ignacio_Zaballa from "../../assets/speakers/Dr_Juan_Ignacio_Zaballa.png"
+import Dra_Florencia_Trullas from "../../assets/speakers/Dra_Florencia_Trullas.png"
+import Dr_Alejandro_Salvado from "../../assets/speakers/Dr_Alejandro_Salvado.png"
+import Dra_Maria_Eugenia_Franchi from "../../assets/speakers/Dra_Maria_Eugenia_Franchi.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -121,7 +124,121 @@ const useData = () => {
         },
     ]
 
-    const speakers = [
+    const speakersCase1 = [
+        {
+            name: "Dr. Daniel Pascansky",
+            speciality: "",
+            review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
+                "Subdirector de la Carrera de Especialista UBA "],
+            image: Dr_Daniel_Pancasky_PS,
+        },
+        {
+            name: "Dra. Florencia Trullias",
+            speciality: "",
+            review: ["Jefa de residentes de neumotisiología del Hospital Ramos Mejia Bs. As"],
+            image: Dra_Florencia_Trullas,
+        },
+        {
+            name: "Dr. Alejandro Salvado",
+            speciality: "Médico Cirujano",
+            image: Dr_Alejandro_Salvado,
+            review: ["Especialista en Clínica Médica, Neumonología y Medicina de Familia, Jefe del Servicio de Neumonología del Hospital Británico de Buenos Aires. "]
+        },
+        {
+            name: "Dra. Eugenia Franchi",
+            speciality: "",
+            image: Dra_Maria_Eugenia_Franchi,
+            review: ["Médica de Staff en Servicio de Neumonología y Coordinadora de la Clínica de Asma Grave, Hospital Universitario Austral, Pilar. Coordinadora consultorio asma grave Hospital Austral."]
+        },
+        {
+            name: "Dr. Marcos Hernandez",
+            speciality: "",
+            review: ["Médico de planta Sanatorio Güemes",
+                "Coordinador consultorio de asma grave Sanatorio Güemes"],
+            image: Dr_Marcos_Hernandez_PS,
+        },
+        {
+            name: "Dr. Ricardo del Olmo",
+            speciality: "",
+            review: ["Jefe de Servicio de Diagnóstico y Tratamiento Hospital María Ferrer & Investigador IDIM"],
+            image: Dr_Ricardo_del_Olmo_PS,
+        },
+    ]
+    const speakersCase2 = [
+        {
+            name: "Dr. Daniel Colodenco",
+            speciality: "",
+            image: Dr_Daniel_Colodenco_PS,
+            review: ["Ex-Jefe de Alergia e Inmunología Hospital María Ferrer",
+                "Director de la Carrera de Especialistas en Neumonología UBA",
+                "Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)"]
+        },
+        {
+            name: "Dr. Martin Sívori",
+            speciality: "",
+            review: ["Jefe Unidad Neumotisiología Hospital Ramos Mejía",
+                "Director carrera especialista neumonología UBA"],
+            image: Dr_Martin_Sívori_PS,
+        },
+        {
+            name: "Dra. Valeria Brichetti",
+            speciality: "",
+            review: ["Médica de planta del servicio de neumotisiologia Hospital Santojanni",
+                "Consultorio de asma grave Hospital Santojanni"],
+            image: Dra_Valeria_Brichetti_PS,
+        },
+        {
+            name: "Dr. Daniel Pascansky",
+            speciality: "",
+            review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
+                "Subdirector de la Carrera de Especialista UBA "],
+            image: Dr_Daniel_Pancasky_PS,
+        },
+        {
+            name: "Dr. Diego Litewka",
+            speciality: "",
+            review: ["Jefe Sección Neumotisiologia Hospital Fernandez"],
+            image: Dr_Diego_Litewka_PS,
+        },
+        {
+            name: "Dr. Jose María Malet Ruiz",
+            speciality: "",
+            review: ["Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer"],
+            image: Dr_Jose_Malet_PS,
+        },
+        {
+            name: "Dr. Marcos Hernandez",
+            speciality: "",
+            review: ["Médico de planta Sanatorio Güemes",
+                "Coordinador consultorio de asma grave Sanatorio Güemes"],
+            image: Dr_Marcos_Hernandez_PS,
+        },
+
+        {
+            name: "Dr. Ricardo del Olmo",
+            speciality: "",
+            review: ["Jefe de Servicio de Diagnóstico y Tratamiento Hospital María Ferrer & Investigador IDIM"],
+            image: Dr_Ricardo_del_Olmo_PS,
+        },
+        {
+            name: "Dra. Laura Orazi",
+            speciality: "",
+            review: ["Médica de planta Neumonología Hospital italiano Buenos Aires",
+                "Consultorio Asma grave Hospital Italiano Buenos Aires",
+                "Subcoordinadora sección trasplante Pulmonar AAMR",
+                "Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
+            image: Dra_Laura_Orazi_PS,
+        },
+        {
+            name: "Dr. Fernando Saldarini",
+            speciality: "",
+            review: ["Jefe Unidad Neumotisiología Hospital Santojanni",
+                "Director adscripto carrera especialista neumonología UBA"],
+            image: Dr_Fernando_Saldarini_PS,
+        },
+    ]
+
+    const speakersCase3 = [
         {
             name: "Dr. Daniel Colodenco",
             speciality: "",
@@ -214,7 +331,9 @@ const useData = () => {
         itemsInformation,
         itemsHospitals,
         directores,
-        speakers,
+        speakersCase1,
+        speakersCase2,
+        speakersCase3,
         logos,
         screenWidth
     }
