@@ -4,7 +4,7 @@ const HospitalItem = ({ hospitalName: hospitalName, icon: HospitalIcon }) => {
     <li className='flex gap-1 justify-start items-center w-full py-1 lg:justify-start lg:w-[200px] laptop:w-[300px]'>
       <span>
         <HospitalIcon
-          color='#2FCE91'
+          color='#8BB6A3'
           width='25px'
           height='25px'
         />

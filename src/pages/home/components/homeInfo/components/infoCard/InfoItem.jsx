@@ -6,7 +6,7 @@ const InfoItem = ({ textInfo: textInfo, iconInfo: IconInfo }) => {
             className="flex items-center gap-2 mb-3"
         >
             <IconInfo
-                color='#2FCE91'
+                color='#FE958F'
                 width='25px'
                 height='25px'
             />
