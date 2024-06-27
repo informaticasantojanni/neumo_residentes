@@ -20,6 +20,12 @@ import Dr_Juan_Ignacio_Zaballa from "../../assets/speakers/Dr_Juan_Ignacio_Zabal
 import Dra_Florencia_Trullas from "../../assets/speakers/Dra_Florencia_Trullas.png"
 import Dr_Alejandro_Salvado from "../../assets/speakers/Dr_Alejandro_Salvado.png"
 import Dra_Maria_Eugenia_Franchi from "../../assets/speakers/Dra_Maria_Eugenia_Franchi.png"
+import Dr_Juan_Pinzon_Rodriguez from "../../assets/speakers/Dr_Juan_Pinzon_Rodriguez.png"
+import Dra_Camila_Fernandez from "../../assets/speakers/Dra_Camila_Fernandez.png"
+import Dr_Martin_Bosio from "../../assets/speakers/Dr_Martin_Bosio.png"
+import Dr_Jorge_Osvaldo_Caneva from "../../assets/speakers/Dr_Jorge_Osvaldo_Caneva.png"
+import Dra_Graciela_Svelitza from "../../assets/speakers/Dra_Graciela_Svelitza.png"
+import Dr_Nicolas_Caruso from "../../assets/speakers/Dr_Nicolas_Caruso.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -166,76 +172,54 @@ const useData = () => {
     ]
     const speakersCase2 = [
         {
-            name: "Dr. Daniel Colodenco",
+            name: "Dr. Juan Pinzon Rodriguez",
             speciality: "",
-            image: Dr_Daniel_Colodenco_PS,
-            review: ["Ex-Jefe de Alergia e Inmunología Hospital María Ferrer",
-                "Director de la Carrera de Especialistas en Neumonología UBA",
-                "Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)"]
+            review: ["Medico residente neumonología Hospital Fernandez"],
+            image: Dr_Juan_Pinzon_Rodriguez,
         },
         {
-            name: "Dr. Martin Sívori",
+            name: "Dra. Camila Fernandez",
             speciality: "",
-            review: ["Jefe Unidad Neumotisiología Hospital Ramos Mejía",
-                "Director carrera especialista neumonología UBA"],
-            image: Dr_Martin_Sívori_PS,
+            review: ["Jefa de Residentes de Neumología Hospital Fernandez"],
+            image: Dra_Camila_Fernandez,
         },
         {
-            name: "Dra. Valeria Brichetti",
-            speciality: "",
-            review: ["Médica de planta del servicio de neumotisiologia Hospital Santojanni",
-                "Consultorio de asma grave Hospital Santojanni"],
-            image: Dra_Valeria_Brichetti_PS,
+            name: "Dr. Sabino Deleo",
+            speciality: "Especialista jerarquizado en clínica médica y especialista en Neumonología. ",
+            review: ["Magister internacional en Hipertensión Pulmonar por la Universidad Francisco de Vitoria de Madrid y la Sociedad Española de Cardiología. Jefe de sala de Neumonología y Consultorio Interdisciplinario de Hipertensión Pulmonar del Hospital Interzonal General de Agudos San Martín de La Plata. Director del curso Universitario de Hipertensión Pulmonar UNLP."],
+            image: Dra_Camila_Fernandez,
         },
         {
-            name: "Dr. Daniel Pascansky",
-            speciality: "",
-            review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
-                "Subdirector de la Carrera de Especialista UBA "],
-            image: Dr_Daniel_Pancasky_PS,
+            name: "Dr. Martín Bosio",
+            speciality: "Médico Neumonólogo Hospital Britanico.",
+            review: ["Coordinador del Departamento de Hipertensión Pulmonar y Tromboembolismo de Pulmón Hospital Británico de Buenos Aires. Jefe de Sala y Consultorios Externos."],
+            image: Dr_Martin_Bosio,
         },
         {
-            name: "Dr. Diego Litewka",
-            speciality: "",
-            review: ["Jefe Sección Neumotisiologia Hospital Fernandez"],
-            image: Dr_Diego_Litewka_PS,
+            name: "Dr. Jorge Osvaldo Caneva",
+            speciality: "Jefe del Servicio de Neumonología",
+            review: ["Profesor Titular. Departamento de Medicina. Director del Programa de Fellow en Hipertensión Pulmonar. Hospital Universitario Fundación Favaloro."],
+            image: Dr_Jorge_Osvaldo_Caneva,
         },
         {
-            name: "Dr. Jose María Malet Ruiz",
-            speciality: "",
-            review: ["Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer"],
-            image: Dr_Jose_Malet_PS,
+            name: "Dra. Ayelen Fernandez",
+            speciality: "??",
+            review: ["??"],
+            image: Dra_Graciela_Svelitza,
         },
         {
-            name: "Dr. Marcos Hernandez",
-            speciality: "",
-            review: ["Médico de planta Sanatorio Güemes",
-                "Coordinador consultorio de asma grave Sanatorio Güemes"],
-            image: Dr_Marcos_Hernandez_PS,
+            name: "Dra. Graciela Svelitza",
+            speciality: "??",
+            review: ["??"],
+            image: Dra_Graciela_Svelitza,
+        },
+        {
+            name: "Dr. Nicolas Caruso",
+            speciality: "Director del Consejo de IC e HTP de la SAC",
+            review: ["Coordinador de UCO y servicio de IC, HTP y Trasplante del Sanatorio Trinidad Mitre"],
+            image: Dr_Nicolas_Caruso,
         },
 
-        {
-            name: "Dr. Ricardo del Olmo",
-            speciality: "",
-            review: ["Jefe de Servicio de Diagnóstico y Tratamiento Hospital María Ferrer & Investigador IDIM"],
-            image: Dr_Ricardo_del_Olmo_PS,
-        },
-        {
-            name: "Dra. Laura Orazi",
-            speciality: "",
-            review: ["Médica de planta Neumonología Hospital italiano Buenos Aires",
-                "Consultorio Asma grave Hospital Italiano Buenos Aires",
-                "Subcoordinadora sección trasplante Pulmonar AAMR",
-                "Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
-            image: Dra_Laura_Orazi_PS,
-        },
-        {
-            name: "Dr. Fernando Saldarini",
-            speciality: "",
-            review: ["Jefe Unidad Neumotisiología Hospital Santojanni",
-                "Director adscripto carrera especialista neumonología UBA"],
-            image: Dr_Fernando_Saldarini_PS,
-        },
     ]
 
     const speakersCase3 = [
