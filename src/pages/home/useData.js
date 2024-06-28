@@ -10,7 +10,6 @@ import Dr_Jose_Malet_PS from "../../assets/speakers/Dr_Jose_Malet_PS.jpg"
 import Dr_Marcos_Hernandez_PS from "../../assets/speakers/Dr_Marcos_Hernandez_PS.jpg"
 import Dr_Martin_Sívori_PS from "../../assets/speakers/Dr_Martin_Sívori_PS.jpg"
 import Dr_Ricardo_del_Olmo_PS from "../../assets/speakers/Dr_Ricardo_del_Olmo_PS.jpg"
-import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
 import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
 import Dra_Alejandra_Celenza_PS from "../../assets/speakers/Dra_Alejandra_Celenza_PS.jpg"
 import Dra_Veronica_Geronazzo from "../../assets/speakers/Dra_Veronica_Geronazzo.png"
@@ -29,6 +28,9 @@ import Dra_Silvia_Quadrelli from "../../assets/speakers/Dra_Silvia_Quadrelli.png
 import Dra_Pamela_Rossi from "../../assets/speakers/Dra_Pamela_Rossi.png"
 import Dra_Brenda_Varela from "../../assets/speakers/Dra_Brenda_Varela.png"
 import Dra_Gabriela_Tabaj from "../../assets/speakers/Dra_Gabriela_Tabaj.png"
+import Dr_Matias_Castro from "../../assets/speakers/Dr_Matias_Castro.png"
+import Dr_Sabino_Deleo from "../../assets/speakers/Dr_Sabino_Deleo.png"
+import Dr_Esteban_Waisntein from "../../assets/speakers/Dr_Esteban_Waisntein.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -190,7 +192,7 @@ const useData = () => {
             name: "Dr. Sabino Deleo",
             speciality: "Especialista jerarquizado en clínica médica y especialista en Neumonología. ",
             review: ["Magister internacional en Hipertensión Pulmonar por la Universidad Francisco de Vitoria de Madrid y la Sociedad Española de Cardiología. Jefe de sala de Neumonología y Consultorio Interdisciplinario de Hipertensión Pulmonar del Hospital Interzonal General de Agudos San Martín de La Plata. Director del curso Universitario de Hipertensión Pulmonar UNLP."],
-            image: Dra_Camila_Fernandez,
+            image: Dr_Sabino_Deleo,
         },
         {
             name: "Dr. Martín Bosio",
@@ -254,13 +256,13 @@ const useData = () => {
             name: "Dr. Matias Castro",
             speciality: "Médico de Planta Hospital Italiano de Buenos Aires.",
             review: ["Ex coordinador de la sección trasplante pulmonar de la AAMR"],
-            image: Dr_Diego_Litewka_PS,
+            image: Dr_Matias_Castro,
         },
         {
             name: "Dr. Esteban Waisntein",
             speciality: "",
             review: ["Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer"],
-            image: Dr_Jose_Malet_PS,
+            image: Dr_Esteban_Waisntein,
         },
         {
             name: "Dra. Brenda Varela",
