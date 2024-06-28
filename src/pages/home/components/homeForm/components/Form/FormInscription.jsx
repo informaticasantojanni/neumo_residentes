@@ -15,10 +15,8 @@ const FormInscription = ({
     onToggle,
 }) => {
 
-
-
     return (
-        <div className={`max-w-2xl mx-auto px-2 py-5 mb-10 rounded-xl ${isToggled ? 'bg-Blue text-White' : 'bg-Green text-Blue'} laptop:w-1/2 laptop:order-first`}>
+        <div className={`max-w-2xl mx-auto px-2 py-5 mb-10 rounded-xl ${isToggled ? 'bg-Navy-blue text-White' : 'bg-Mint-green text-Navy-blue'} laptop:w-1/2 laptop:order-first`}>
             <div className="w-full text-left md:text-center">
                 <h2 className='font-montserrat font-Bold text-4xl mb-10'>INSCRIPCION</h2>
             </div>
@@ -26,7 +24,7 @@ const FormInscription = ({
                 <div>
                     <label className="block mb-4 text-xl font-montserratAlternate font-Semibold">Seleccionar Modalidad</label>
                     <label className="block mb-4 text-lg font-montserratAlternate font-Regular">{isToggled ? 'Presencial' : 'Virtual'}</label>
-                    <label htmlFor="check" className={`w-20 h-10 rounded-full relative ${isToggled ? 'bg-Green' : 'bg-Blue'}`}>
+                    <label htmlFor="check" className={`w-20 h-10 rounded-full relative ${isToggled ? 'bg-Mint-green' : 'bg-Navy-blue'}`}>
                         <input
                             type="checkbox"
                             id="check"
@@ -34,7 +32,7 @@ const FormInscription = ({
                             checked={isToggled}
                             onChange={onToggle}
                         />
-                        <div className={`relative w-14 h-7 bg-Blue peer-focus:outline-none rounded-full peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-White after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-Green mb-4 
+                        <div className={`relative w-14 h-7 bg-Navy-blue peer-focus:outline-none rounded-full peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-White after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-Mint-green mb-4 
           `}></div>
                     </label>
                 </div>
@@ -81,8 +79,8 @@ const FormInscription = ({
                 <div className="w-full flex flex-col md:items-center md:justify-center my-10">
                     <button
                         type="submit"
-                        className={`font-montserrat font-Semibold  text-2xl  border-solid border-2  hover:bg-gradient-to-r focus:ring-4 focus:outline-none focus:ring-Green rounded-lg w-full  px-5 py-2.5 text-center
-          ${isToggled ? 'border-White text-White hover:from-Green to-Blue' : 'border-Blue text-Blue hover:from-Blue to-Green hover:text-White'}`}
+                        className={`font-montserrat font-Semibold  text-2xl  border-solid border-2  hover:bg-gradient-to-r focus:ring-4 focus:outline-none focus:ring-Mint-green rounded-lg w-full  px-5 py-2.5 text-center
+          ${isToggled ? 'border-White text-White hover:from-Mint-green to-Navy-blue' : 'border-Navy-blue text-Navy-blue hover:from-Navy-blue to-Mint-green hover:text-White'}`}
                         value={btnSubmitText}>{btnSubmitText}
                     </button>
                 </div>

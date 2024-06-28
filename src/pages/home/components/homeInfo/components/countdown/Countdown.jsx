@@ -57,9 +57,9 @@ const Countdown = () => {
                     return (
                         <div className='flex flex-col justify-center items-center gap-2' key={renamedlabel}>
                             <div>
-                                <span className=' font-montserrat font-Semibold text-White text-3xl'> {renamedlabel} </span>
+                                <span className=' font-montserrat font-Semibold text-Soft-red text-3xl'> {renamedlabel} </span>
                             </div>
-                            <span className=' font-montserratAlternate font-Regular text-White text-2xl'>{value}</span>
+                            <span className=' font-montserratAlternate font-Regular text-Soft-red text-2xl'>{value}</span>
                         </div>
                     );
                 })}
