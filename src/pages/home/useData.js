@@ -4,7 +4,6 @@ import MedicalCard from "../../components/svg/MedicalCard"
 import Time from "../../components/svg/Time"
 import Location from "../../components/svg/Location"
 import Connection from "../../components/svg/Connection"
-import Dr_Daniel_Colodenco_PS from "../../assets/speakers/Dr_Daniel_Colodenco_PS.jpg"
 import Dr_Daniel_Pancasky_PS from "../../assets/speakers/Dr_Daniel_Pancasky_PS.jpg"
 import Dr_Diego_Litewka_PS from "../../assets/speakers/Dr_Diego_Litewka_PS.jpg"
 import Dr_Jose_Malet_PS from "../../assets/speakers/Dr_Jose_Malet_PS.jpg"
@@ -12,7 +11,6 @@ import Dr_Marcos_Hernandez_PS from "../../assets/speakers/Dr_Marcos_Hernandez_PS
 import Dr_Martin_Sívori_PS from "../../assets/speakers/Dr_Martin_Sívori_PS.jpg"
 import Dr_Ricardo_del_Olmo_PS from "../../assets/speakers/Dr_Ricardo_del_Olmo_PS.jpg"
 import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
-import Dra_Valeria_Brichetti_PS from "../../assets/speakers/Dra_Valeria_Brichetti_PS.jpg"
 import Dr_Fernando_Saldarini_PS from "../../assets/speakers/Dr_Fernando_Saldarini_PS.jpg"
 import Dra_Alejandra_Celenza_PS from "../../assets/speakers/Dra_Alejandra_Celenza_PS.jpg"
 import Dra_Veronica_Geronazzo from "../../assets/speakers/Dra_Veronica_Geronazzo.png"
@@ -26,6 +24,11 @@ import Dr_Martin_Bosio from "../../assets/speakers/Dr_Martin_Bosio.png"
 import Dr_Jorge_Osvaldo_Caneva from "../../assets/speakers/Dr_Jorge_Osvaldo_Caneva.png"
 import Dra_Graciela_Svelitza from "../../assets/speakers/Dra_Graciela_Svelitza.png"
 import Dr_Nicolas_Caruso from "../../assets/speakers/Dr_Nicolas_Caruso.png"
+import Dra_Katerina_Ivanoska_Ortuono from "../../assets/speakers/Dra_Katerina_Ivanoska_Ortuono.png"
+import Dra_Silvia_Quadrelli from "../../assets/speakers/Dra_Silvia_Quadrelli.png"
+import Dra_Pamela_Rossi from "../../assets/speakers/Dra_Pamela_Rossi.png"
+import Dra_Brenda_Varela from "../../assets/speakers/Dra_Brenda_Varela.png"
+import Dra_Gabriela_Tabaj from "../../assets/speakers/Dra_Gabriela_Tabaj.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -224,76 +227,54 @@ const useData = () => {
 
     const speakersCase3 = [
         {
-            name: "Dr. Daniel Colodenco",
-            speciality: "",
-            image: Dr_Daniel_Colodenco_PS,
-            review: ["Ex-Jefe de Alergia e Inmunología Hospital María Ferrer",
-                "Director de la Carrera de Especialistas en Neumonología UBA",
-                "Ex-Presidente de la Asociación Argentina de Medicina Respiratoria (AAMR)"]
+            name: "Dra. Katerina Ivanoska Ortuoño",
+            speciality: "Residente de primer año de neumología Hospital Santojanni",
+            image: Dra_Katerina_Ivanoska_Ortuono,
+            review: [""]
         },
         {
-            name: "Dr. Martin Sívori",
-            speciality: "",
-            review: ["Jefe Unidad Neumotisiología Hospital Ramos Mejía",
-                "Director carrera especialista neumonología UBA"],
-            image: Dr_Martin_Sívori_PS,
+            name: "Dr. Juan Ignacio  Zaballa",
+            speciality: "Especialista en clínica médica y neumonologia",
+            review: ["Jefe Residentes Hospital Santojanni"],
+            image: Dr_Juan_Ignacio_Zaballa,
         },
         {
-            name: "Dra. Valeria Brichetti",
-            speciality: "",
-            review: ["Médica de planta del servicio de neumotisiologia Hospital Santojanni",
-                "Consultorio de asma grave Hospital Santojanni"],
-            image: Dra_Valeria_Brichetti_PS,
+            name: "Dra. Silvia Quadrelli",
+            speciality: "Dra. en Medicina - Jefa de Neumonología del Sanatorio Güemes de Buenos Aires",
+            review: ["Directora de la Carrera de Especialista de Neumonología de la UBA - Miembro del Executive Board de la World Association for Bronchology - Presidenta de la Fundación para el Estudio de la Enfermedades fibrosantes del pulmón."],
+            image: Dra_Silvia_Quadrelli,
         },
         {
-            name: "Dr. Daniel Pascansky",
-            speciality: "",
-            review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
-                "Subdirector de la Carrera de Especialista UBA "],
-            image: Dr_Daniel_Pancasky_PS,
+            name: "Dra. Pamela Rossi",
+            speciality: "Medica neumonologa de planta Hospital Santojanni",
+            review: ["Coordinadora consultorio de enfermedades intersticiales Hospital Santojanni."],
+            image: Dra_Pamela_Rossi,
         },
         {
-            name: "Dr. Diego Litewka",
-            speciality: "",
-            review: ["Jefe Sección Neumotisiologia Hospital Fernandez"],
+            name: "Dr. Matias Castro",
+            speciality: "Médico de Planta Hospital Italiano de Buenos Aires.",
+            review: ["Ex coordinador de la sección trasplante pulmonar de la AAMR"],
             image: Dr_Diego_Litewka_PS,
         },
         {
-            name: "Dr. Jose María Malet Ruiz",
+            name: "Dr. Esteban Waisntein",
             speciality: "",
             review: ["Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer"],
             image: Dr_Jose_Malet_PS,
         },
         {
-            name: "Dr. Marcos Hernandez",
-            speciality: "",
-            review: ["Médico de planta Sanatorio Güemes",
-                "Coordinador consultorio de asma grave Sanatorio Güemes"],
-            image: Dr_Marcos_Hernandez_PS,
+            name: "Dra. Brenda Varela",
+            speciality: "Medica Clinica. Médica Neumonologa.",
+            review: ["Coordinadora del consultorio de EPID e HP en el Hospital Alemán. Ex coordinadora sección EPID AAMR."],
+            image: Dra_Brenda_Varela,
         },
 
         {
-            name: "Dr. Ricardo del Olmo",
-            speciality: "",
-            review: ["Jefe de Servicio de Diagnóstico y Tratamiento Hospital María Ferrer & Investigador IDIM"],
-            image: Dr_Ricardo_del_Olmo_PS,
-        },
-        {
-            name: "Dra. Laura Orazi",
-            speciality: "",
-            review: ["Médica de planta Neumonología Hospital italiano Buenos Aires",
-                "Consultorio Asma grave Hospital Italiano Buenos Aires",
-                "Subcoordinadora sección trasplante Pulmonar AAMR",
-                "Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
-            image: Dra_Laura_Orazi_PS,
-        },
-        {
-            name: "Dr. Fernando Saldarini",
-            speciality: "",
-            review: ["Jefe Unidad Neumotisiología Hospital Santojanni",
-                "Director adscripto carrera especialista neumonología UBA"],
-            image: Dr_Fernando_Saldarini_PS,
-        },
+            name: "Dra. Gabriela Tabaj",
+            speciality: "Médica neumonóloga universitaria ",
+            review: ["Jefa de Sala de Docencia e Investigación Hospital Cetrángolo. Subdirectora de la Carrera de Especialista en Neumonología - UBA"],
+            image: Dra_Gabriela_Tabaj,
+        }
     ]
 
     const logos = [
