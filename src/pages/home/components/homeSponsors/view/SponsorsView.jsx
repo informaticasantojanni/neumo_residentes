@@ -11,7 +11,7 @@ const SponsorsView = () => {
     return (
         <div className='mb-40'>
             <div className="w-full text-center">
-                <h2 className='font-montserrat p-5 laptop:p-10 desktop:rounded-xl leading-relaxed font-Bold text-2xl desktop:text-4xl mb-10 text-Navy-blue bg-Mint-green'>COLABORAN CON EL CONSORCIO DE ASMA 2024</h2>
+                <h2 className='font-montserrat p-5 laptop:p-10 desktop:rounded-xl leading-relaxed font-Bold text-2xl desktop:text-4xl mb-10 text-Navy-blue bg-Mint-green'>COLABORAN CON EL CONSORCIO DE HOSPITALES PUBLICOS</h2>
             </div>
             <div className='my-5'>
                 <div className='w-full md:w-[70%] laptop:w-[50%] mx-auto overflow-hidden'>

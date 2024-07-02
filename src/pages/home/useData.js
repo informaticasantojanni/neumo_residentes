@@ -31,6 +31,9 @@ import Dra_Gabriela_Tabaj from "../../assets/speakers/Dra_Gabriela_Tabaj.png"
 import Dr_Matias_Castro from "../../assets/speakers/Dr_Matias_Castro.png"
 import Dr_Sabino_Deleo from "../../assets/speakers/Dr_Sabino_Deleo.png"
 import Dr_Esteban_Waisntein from "../../assets/speakers/Dr_Esteban_Waisntein.png"
+import Dr_Martin_Pascansky from "../../assets/speakers/Dr_Martin_Pascansky.png"
+import Dra_Laura_Orazi_PS from "../../assets/speakers/Dra_Laura_Orazi_PS.jpg"
+import Dra_Ayelen_Fernandez from "../../assets/speakers/Dra_Ayelen_Fernandez.png"
 
 import elea from "../../assets/logos/logo_elea.png"
 import cassara from "../../assets/logos/logo_cassara.png"
@@ -137,14 +140,13 @@ const useData = () => {
 
     const speakersCase1 = [
         {
-            name: "Dr. Daniel Pascansky",
+            name: "Dr. Martín Pascansky",
             speciality: "",
-            review: ["Médico de planta de neumotisiologia Hospital Ramos Mejia",
-                "Subdirector de la Carrera de Especialista UBA "],
-            image: Dr_Daniel_Pancasky_PS,
+            review: ["Residente tercer año Hospital Ramos Mejia Bs. As."],
+            image: Dr_Martin_Pascansky,
         },
         {
-            name: "Dra. Florencia Trullias",
+            name: "Dra. Florencia Trullas",
             speciality: "",
             review: ["Jefa de residentes de neumotisiología del Hospital Ramos Mejia Bs. As"],
             image: Dra_Florencia_Trullas,
@@ -162,11 +164,23 @@ const useData = () => {
             review: ["Médica de Staff en Servicio de Neumonología y Coordinadora de la Clínica de Asma Grave, Hospital Universitario Austral, Pilar. Coordinadora consultorio asma grave Hospital Austral."]
         },
         {
+            name: "Dr. Jose María Malet Ruiz",
+            speciality: "Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer.",
+            image: Dr_Jose_Malet_PS,
+            review: [""]
+        },
+        {
             name: "Dr. Marcos Hernandez",
             speciality: "",
             review: ["Médico de planta Sanatorio Güemes",
                 "Coordinador consultorio de asma grave Sanatorio Güemes"],
             image: Dr_Marcos_Hernandez_PS,
+        },
+        {
+            name: "Dr. Laura Orazi",
+            speciality: "Médica de planta Neumonología Hospital italiano Buenos Aires",
+            review: ["Consultorio Asma grave Hospital Italiano Buenos Aires. Subcoordinadora sección trasplante Pulmonar AAMR. Coordinadora laboratorio pulmonar Hospital Italiano Buenos Aires"],
+            image: Dra_Laura_Orazi_PS,
         },
         {
             name: "Dr. Ricardo del Olmo",
@@ -208,14 +222,14 @@ const useData = () => {
         },
         {
             name: "Dra. Ayelen Fernandez",
-            speciality: "??",
-            review: ["??"],
-            image: Dra_Graciela_Svelitza,
+            speciality: "Médica Neumonóloga Hospital el Cruce",
+            review: ["Vocal Sección Circulación Pulmonar AAMR"],
+            image: Dra_Ayelen_Fernandez,
         },
         {
-            name: "Dra. Graciela Svelitza",
-            speciality: "??",
-            review: ["??"],
+            name: "Prof. Dra. Graciela Svelitza",
+            speciality: "Médica Neumonóloga de Planta del Hospital Italiano de Buenos Aires.",
+            review: ["Miembro del Equipo de Hipertensión Pulmonar y Tranplante Pulmonar HIBA. Docente Titular Universidad Hospital Italiano. Encargada Docente UBA UDH Neumonología HIBA. Asesora INCUCAI"],
             image: Dra_Graciela_Svelitza,
         },
         {
@@ -255,13 +269,13 @@ const useData = () => {
         {
             name: "Dr. Matias Castro",
             speciality: "Médico de Planta Hospital Italiano de Buenos Aires.",
-            review: ["Ex coordinador de la sección trasplante pulmonar de la AAMR"],
+            review: ["Coordinador enfermedades intersticiales."],
             image: Dr_Matias_Castro,
         },
         {
             name: "Dr. Esteban Waisntein",
-            speciality: "",
-            review: ["Jefe de Unidad Investigación Clínica y Experimental Hospital de Rehabilitación Respiratoria María Ferrer"],
+            speciality: "Médico de Planta. Hospital Italiano de Buenos Aires.",
+            review: ["Ex coordinador de la sección trasplante pulmonar de la AAMR"],
             image: Dr_Esteban_Waisntein,
         },
         {
@@ -280,14 +294,6 @@ const useData = () => {
     ]
 
     const logos = [
-        {
-            title: 'Elea',
-            image: elea,
-        },
-        {
-            title: 'Cassara',
-            image: cassara,
-        },
         {
             title: 'Casasco',
             image: casasco
