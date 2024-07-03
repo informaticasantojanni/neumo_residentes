@@ -112,7 +112,7 @@ const useData = () => {
             image: Dr_Juan_Ignacio_Zaballa
         },
         {
-            cargo: "Director",
+            cargo: "Directora",
             name: "Dra. Verónica Geronazzo",
             image: Dra_Veronica_Geronazzo
         },
@@ -161,7 +161,7 @@ const useData = () => {
             name: "Dra. Eugenia Franchi",
             speciality: "",
             image: Dra_Maria_Eugenia_Franchi,
-            review: ["Médica de Staff en Servicio de Neumonología y Coordinadora de la Clínica de Asma Grave, Hospital Universitario Austral, Pilar. Coordinadora consultorio asma grave Hospital Austral."]
+            review: ["Médica de Staff en Servicio de Neumonología y Coordinadora de la Clínica de Asma Grave, Hospital Universitario Austral, Pilar. Coordinadora consultorio Asma grave Hospital Austral."]
         },
         {
             name: "Dr. Jose María Malet Ruiz",
@@ -173,7 +173,7 @@ const useData = () => {
             name: "Dr. Marcos Hernandez",
             speciality: "",
             review: ["Médico de planta Sanatorio Güemes",
-                "Coordinador consultorio de asma grave Sanatorio Güemes"],
+                "Coordinador Consultorio de Asma Grave Sanatorio Güemes"],
             image: Dr_Marcos_Hernandez_PS,
         },
         {
@@ -193,7 +193,7 @@ const useData = () => {
         {
             name: "Dr. Juan Pinzon Rodriguez",
             speciality: "",
-            review: ["Medico residente neumonología Hospital Fernandez"],
+            review: ["Medico residente Neumonología Hospital Fernandez"],
             image: Dr_Juan_Pinzon_Rodriguez,
         },
         {
@@ -204,8 +204,8 @@ const useData = () => {
         },
         {
             name: "Dr. Sabino Deleo",
-            speciality: "Especialista jerarquizado en clínica médica y especialista en Neumonología. ",
-            review: ["Magister internacional en Hipertensión Pulmonar por la Universidad Francisco de Vitoria de Madrid y la Sociedad Española de Cardiología. Jefe de sala de Neumonología y Consultorio Interdisciplinario de Hipertensión Pulmonar del Hospital Interzonal General de Agudos San Martín de La Plata. Director del curso Universitario de Hipertensión Pulmonar UNLP."],
+            speciality: "Especialista jerarquizado en Clínica Médica y Especialista en Neumonología. ",
+            review: ["Magister internacional en Hipertensión Pulmonar por la Universidad Francisco de Vitoria de Madrid y la Sociedad Española de Cardiología. Director del curso Universitario de Hipertensión Pulmonar UNLP."],
             image: Dr_Sabino_Deleo,
         },
         {
@@ -262,7 +262,7 @@ const useData = () => {
         },
         {
             name: "Dra. Pamela Rossi",
-            speciality: "Medica neumonologa de planta Hospital Santojanni",
+            speciality: "Médica Neumonóloga de planta Hospital Santojanni",
             review: ["Coordinadora consultorio de enfermedades intersticiales Hospital Santojanni."],
             image: Dra_Pamela_Rossi,
         },
@@ -274,20 +274,20 @@ const useData = () => {
         },
         {
             name: "Dr. Esteban Waisntein",
-            speciality: "Médico de Planta. Hospital Italiano de Buenos Aires.",
+            speciality: "Médico de Planta Hospital Italiano de Buenos Aires.",
             review: ["Ex coordinador de la sección trasplante pulmonar de la AAMR"],
             image: Dr_Esteban_Waisntein,
         },
         {
             name: "Dra. Brenda Varela",
-            speciality: "Medica Clinica. Médica Neumonologa.",
+            speciality: "Medica Clinica. Médica Neumonóloga.",
             review: ["Coordinadora del consultorio de EPID e HP en el Hospital Alemán. Ex coordinadora sección EPID AAMR."],
             image: Dra_Brenda_Varela,
         },
 
         {
             name: "Dra. Gabriela Tabaj",
-            speciality: "Médica neumonóloga universitaria ",
+            speciality: "Médica Neumonóloga Universitaria ",
             review: ["Jefa de Sala de Docencia e Investigación Hospital Cetrángolo. Subdirectora de la Carrera de Especialista en Neumonología - UBA"],
             image: Dra_Gabriela_Tabaj,
         }

@@ -5,7 +5,7 @@ import SpeakerCarouselCase3 from "../components/speakerCard/SpeakerCarouselCase3
 
 const SpeakerView = () => {
   return (
-    <div>
+    <div className="px-2">
       <h3 className='font-montserrat font-Bold text-4xl text-center mb-10 text-Navy-blue desktop:group-hover:text-Navy-blue desktop:text-5xl'>DISERTANTES</h3>
       <div className="w-full mx-auto mb-40 flex flex-col bg-Navy-blue group desktop:hover:bg-Mint-green rounded-xl shadow-md md:h-[730px]">
         <div className="w-full text-center p-1">

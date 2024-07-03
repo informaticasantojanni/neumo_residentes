@@ -13,7 +13,7 @@ const HomeInfoView = () => {
     const newItemsInformation = itemsInformation.slice(0, lastIndex);
 
     return (
-        <div className='mb-40 laptop:flex laptop:gap-4 laptop:justify-center laptop:items-center'>
+        <div className='mb-40 px-2 laptop:flex laptop:gap-4 laptop:justify-center laptop:items-center'>
             <div className='mb-40 laptop:mb-0 laptop:w-1/2 laptop:flex laptop:items-center laptop:p-4 laptop:h-[537px] laptop:bg-Soft-red laptop:rounded-r-full'>
                 <Countdown />
             </div>

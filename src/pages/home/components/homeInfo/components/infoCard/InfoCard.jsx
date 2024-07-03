@@ -8,8 +8,8 @@ const InfoCard = ({ title, subTitle, paragraph, itemsInformation, case_1, case_2
 
     return (
         <div>
-            <h2 className="text-4xl font-montserrat font-Bold mb-1 text-White desktop:text-5xl">{title}</h2>
-            <h3 className="text-xl font-montserrat font-Bold mb-1 text-Soft-red desktop:text-2xl">{subTitle}</h3>
+            <h2 className="text-3xl font-montserrat font-Bold mb-1 text-White desktop:text-3xl">{title}</h2>
+            <h3 className="text-4xl font-montserrat font-Bold mb-1 text-Soft-red desktop:text-4xl">{subTitle}</h3>
             <div className=" py-4 mb-4">
                 <p className="font-montserratAlternate font-Regular text-base desktop:text-lg text-White text-justify mb-2">{paragraph}</p>
                 <p className="font-montserratAlternate font-Regular text-base desktop:text-lg text-White text-justify mb-1">{case_1}</p>

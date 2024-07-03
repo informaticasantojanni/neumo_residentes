@@ -49,7 +49,10 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div className='flex justify-center mx-auto py-5 my-5 w-[350px] h-[150px] md:w-[450px] bg-Navy-blue rounded-xl'>
+        <div className='flex flex-col justify-center mx-auto py-5 my-5 w-[350px] h-[150px] md:w-[450px] bg-Navy-blue rounded-xl'>
+            <div className="w-full">
+                <p className="text-center font-montserrat font-Semibold text-3xl text-White pb-3">Comienza en:</p>
+            </div>
 
             <div className='flex justify-center items-center gap-5 md:gap-10'>
                 {Object.entries(timeLeft).map(([key, value]) => {

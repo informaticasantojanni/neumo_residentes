@@ -14,9 +14,9 @@ const useFormInscription = ({ openModal }) => {
     const [contentModal, setContentModal] = useState('');
 
     //Spreacsheet con API en informatica.santojanni https://docs.google.com/spreadsheets/d/1-aXFa1DX7qi829rd_Z6gFmaEtwk5igFPre71mJxWoEw/edit#gid=1328272183
-    const urlFetchAPI = "https://script.google.com/macros/s/AKfycbzqFOCKYwAQGEoJ2SSefSqE5QvdBPoh14ypyRvl4TM1rGtE2nW-MqasVVk16-Cqs3FNOQ/exec" //con API en consorcioasmahp@gmail.com
-    //Link spreadsheet consorcioasmahp@gmail.com
-    //https://docs.google.com/spreadsheets/d/1bd_fkSXhKwZ1C5lbYpyp4DiSTbHr2bojTZ9JCDHV3yI/edit?pli=1#gid=0
+    const urlFetchAPI = "https://script.google.com/macros/s/AKfycbxFG-NxwLmVcCIej4alsevTh22_CLR3Hioho7nTLFUzETjna53HBdEDdAnhsQ0h23F9pQ/exec" //con API en consorciohpcaba@gmail.com
+    //Link spreadsheet consorciohpcaba@gmail.com
+    //https://docs.google.com/spreadsheets/d/1BfWdpNcOQnbqaXxD47hM1BuSI_R3tsJj4aroFXbrodI/edit?gid=0#gid=0
 
     const handleSubmit = async (e) => {
 
@@ -53,7 +53,7 @@ const useFormInscription = ({ openModal }) => {
                 setTimeout(() => {
                     setBtnSubmitText('Inscribirse');
                     setTitleModal('Tu Inscripción ha sido registrada');
-                    setContentModal(`${responseObject.data.name} ${responseObject.data.lastName}, gracias por inscribirte al Consorcio de Asma de hospitales públicos de CABA. Te enviamos un correo electrónico a ${responseObject.data.email} con la confirmación y el evento para que agregues a tu calendario.`);
+                    setContentModal(`${responseObject.data.name} ${responseObject.data.lastName}, gracias por inscribirte al Consorcio hospitales públicos de CABA. Te enviamos un correo electrónico a ${responseObject.data.email} con la confirmación y el evento para que agregues a tu calendario.`);
                     openModal();
                 }, 1000);
             } else {
