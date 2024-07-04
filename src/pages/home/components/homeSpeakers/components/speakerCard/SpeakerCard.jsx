@@ -16,7 +16,7 @@ const SpeakerCard = ({ name: name, speciality: speciality, review: review, image
       </div>
       <div className="w-full mb-5 p-5 flex flex-col justify-center items-center rounded-xl md:px-2 md:py-5">
         <h3 className="text-xl p-2 font-montserrat font-Bold text-Navy-blue md:text-2xl desktop:group-hover:text-White">{name}</h3>
-        <h5 className="text-base font-montserrat font-Semibold mb-3 text-Navy-blue desktop:group-hover:text-White md:text-xl">{speciality}</h5>
+        <h5 className="text-center text-base font-montserrat font-Semibold mb-3 text-Navy-blue desktop:group-hover:text-White md:text-xl">{speciality}</h5>
         {/* {showFullReview ? review : `${review.slice(0, 150)}...`} */}
         {/* <p className="font-montserratAlternate font-Regular text-sm text-start leading-relaxed md:text-xl text-White">
             {review} </p> */}
