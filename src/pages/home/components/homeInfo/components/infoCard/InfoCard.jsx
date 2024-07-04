@@ -1,7 +1,7 @@
 import HeaderButton from "../../../homeHeader/componentes/HeaderButton";
 import InfoItem from "./InfoItem";
 
-const URL_PROGRAMA = 'https://drive.google.com/file/d/1ctl5zwGxdzkI4xL3A_2z2fpW8zPLBFU_/view?usp=sharing';
+const URL_PROGRAMA = 'https://drive.google.com/file/d/18SgyjNYJ7KzS-86OCdZR1PGKdu9od8nD/view?usp=sharing';
 
 
 const InfoCard = ({ title, subTitle, paragraph, itemsInformation, case_1, case_2, case_3, ...connection }) => {

@@ -227,7 +227,7 @@ const useData = () => {
             image: Dra_Ayelen_Fernandez,
         },
         {
-            name: "Prof. Dra. Graciela Svelitza",
+            name: "Prof. Dra. Graciela Svetlita",
             speciality: "Médica Neumonóloga de Planta del Hospital Italiano de Buenos Aires.",
             review: ["Miembro del Equipo de Hipertensión Pulmonar y Tranplante Pulmonar HIBA. Docente Titular Universidad Hospital Italiano. Encargada Docente UBA UDH Neumonología HIBA. Asesora INCUCAI"],
             image: Dra_Graciela_Svelitza,
