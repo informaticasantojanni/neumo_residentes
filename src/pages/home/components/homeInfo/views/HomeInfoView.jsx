@@ -21,9 +21,9 @@ const HomeInfoView = () => {
                 <InfoCard
                     title='CONSORCIO HOSPITALES PUBLICOS DE CABA'
                     subTitle='EL RESIDENTE DESAFIANDO AL EXPERTO'
-                    paragraph="Únete a nosotros en esta jornada educativa donde residentes de neumología y expertos se reunirán para discutir y compartir conocimientos sobre tres importantes temáticas:  "
+                    paragraph="Unite a nosotros en esta jornada educativa donde residentes de neumonología y expertos se reunirán para discutir y compartir conocimientos sobre tres importantes temáticas:  "
                     case_1= "ASMA: lo que no dicen las guías"
-                    case_2= "HIPERTENSIÓN PULMONAR: cuando la hipertensión pulmonar puede tener varias curas"
+                    case_2= "HIPERTENSIÓN PULMONAR: cuando la hipertensión pulmonar puede tener varios grupos"
                     case_3= "ENFERMEDAD INTERSTICIAL: recorrido del diagnóstico al transplante"
                     itemsInformation={newItemsInformation}
                     {...connection}

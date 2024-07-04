@@ -161,7 +161,7 @@ const useData = () => {
             name: "Dra. Eugenia Franchi",
             speciality: "",
             image: Dra_Maria_Eugenia_Franchi,
-            review: ["Médica de Staff en Servicio de Neumonología y Coordinadora de la Clínica de Asma Grave, Hospital Universitario Austral, Pilar. Coordinadora consultorio Asma grave Hospital Austral."]
+            review: ["Médica de Staff en Servicio de Neumonología y Coordinadora consultorio Asma grave Hospital Austral de Pilar."]
         },
         {
             name: "Dr. Jose María Malet Ruiz",
@@ -199,7 +199,7 @@ const useData = () => {
         {
             name: "Dra. Camila Fernandez",
             speciality: "",
-            review: ["Jefa de Residentes de Neumología Hospital Fernandez"],
+            review: ["Jefa de Residentes de Neumonología Hospital Fernandez"],
             image: Dra_Camila_Fernandez,
         },
         {
@@ -244,7 +244,7 @@ const useData = () => {
     const speakersCase3 = [
         {
             name: "Dra. Katerina Ivanoska Ortuoño",
-            speciality: "Residente de primer año de neumología Hospital Santojanni",
+            speciality: "Residente de primer año de neumonología Hospital Santojanni",
             image: Dra_Katerina_Ivanoska_Ortuono,
             review: [""]
         },
@@ -297,7 +297,12 @@ const useData = () => {
         {
             title: 'Casasco',
             image: casasco
-        }
+        },
+        {
+            title: 'Elea',
+            image: elea
+        },
+
     ]
 
     return {
